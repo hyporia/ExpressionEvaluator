@@ -2,6 +2,7 @@
 
 IEvaluator evaluator = new Evaluator();
 
+Console.WriteLine("Enter expression. Decimal numbers must be dot-separated.");
 var expression = string.Empty;
 while ((expression = Console.ReadLine()) != "exit")
 {
